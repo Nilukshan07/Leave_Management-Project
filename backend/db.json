@@ -1,0 +1,95 @@
+{
+  "employees": [
+    {
+      "id": "EMP_mWe0K",
+      "employeeId": "EMP_mWe0K",
+      "nic": "2132435465768",
+      "firstName": "Suriya",
+      "lastName": "Nilukshan",
+      "dob": "2000-07-25",
+      "doj": "2024-10-01"
+    },
+    {
+      "id": "EMP_8sJRR",
+      "employeeId": "EMP_8sJRR",
+      "nic": "2323434545",
+      "firstName": "Karthik",
+      "lastName": "Mithu",
+      "dob": "2001-12-09",
+      "doj": "2024-09-11"
+    },
+    {
+      "id": "EMP_OhcOo",
+      "employeeId": "EMP_OhcOo",
+      "nic": "6456554332",
+      "firstName": "Dhanush",
+      "lastName": "Billa",
+      "dob": "1993-06-08",
+      "doj": "2024-06-13"
+    }
+  ],
+  "users": [
+    {
+      "username": "EMP_mWe0K",
+      "password": "A123",
+      "role": "Employee",
+      "employeeId": "EMP_mWe0K",
+      "id": "EMP_mWe0K"
+    },
+    {
+      "username": "EMP_8sJRR",
+      "password": "pwd123",
+      "role": "Manager",
+      "employeeId": "EMP_8sJRR",
+      "id": "EMP_8sJRR"
+    },
+    {
+      "id": "EMP_OhcOo",
+      "employeeId": "EMP_OhcOo",
+      "username": "EMP_OhcOo",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "a4a4",
+      "employeeId": "EMP_mWe0K",
+      "reason": "Go To Hospital.",
+      "dateFrom": "2024-10-10",
+      "numOfDays": "2",
+      "applicationDate": "2024-10-07",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30"
+    },
+    {
+      "id": "99dd",
+      "employeeId": "EMP_mWe0K",
+      "reason": "School Trip",
+      "dateFrom": "2024-10-17",
+      "numOfDays": "1",
+      "applicationDate": "2024-10-01",
+      "status": "Rejected",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30",
+      "rejectionReason": "Not finish your Work Because Tomorow I Should submit project"
+    }
+  ]
+}
